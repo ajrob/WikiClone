@@ -44,12 +44,19 @@ li {
 	text-align: right;
 }
 
-.cell {
-	display: inline;
-	width: 200px;
-	margin: 0 2%;
+#grid {
+	display: table;
+	width: 100%;
 }
 
 .row {
-	display: block;
+	margin: auto;
+	white-space: nowrap;
+}
+
+.row .cell {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	width: 25%;
 }
